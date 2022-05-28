@@ -9,7 +9,7 @@ public class MainController {
 
     @GetMapping("/")
     public String viewIndexPage(Model model) {
-        model.addAttribute("header", "Maven Generate War");
+        model.addAttribute("header", "Боже, дякую тобі шо ти є...");
         return "index";
     }
 }
